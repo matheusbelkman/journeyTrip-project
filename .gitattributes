@@ -1,0 +1,22 @@
+# Forçar LF
+* text=auto eol=lf
+
+# Arquivos fonte
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+
+# Imagens (binário)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg binary
+
+# Fontes
+*.ttf binary
+*.woff binary
+*.woff2 binary

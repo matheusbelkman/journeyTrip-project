@@ -1,0 +1,24 @@
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Dependências
+node_modules/
+
+# Arquivos Temporários
+*.tmp
+*.swp
+
+# Ambiente
+.env
+.env.local
+
+# Build
+dist/
+build/
