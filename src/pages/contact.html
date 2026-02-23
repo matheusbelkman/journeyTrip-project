@@ -6,9 +6,102 @@
     <link rel="icon" href="/public/favicon/favicon.svg" type="image/svg" />
     <link rel="stylesheet" href="/src/styles/main.css" />
     <link rel="stylesheet" href="/src/styles/medias.css" />
+    <link rel="stylesheet" href="/src/styles/contact.css" />
     <title>Journey Trip</title>
   </head>
   <body>
+    <div class="container">
+      <header>
+        <a href="#">
+          <img src="/src/assets/images/logo-header.png" alt="Journey Trip company logo" />
+        </a>
+        <img src="/src/assets/images/burguerMenu-header.png" alt="options menu" />
+        <nav>
+          <ul>
+            <li><a href="/src/pages/blog.html">Blog</a></li>
+            <li><a href="/src/pages/packages.html">Travel packages</a></li>
+            <li><a href="/src/pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="banner">
+          <h1>Please contact us!</h1>
+          <p>Questions, suggestions, problems to solve? We have a team on call to help you!</p>
+        </div>
+
+        <section class="form">
+          <h2>Please complete the form:</h2>
+          <p>
+            We have a team always on hand to answer your questions, solve your problems, and provide
+            objective tips and guidance to make your experience as enjoyable and smooth as possible.
+            Fill in your details and we will get back to you as soon as possible, depending on the
+            urgency of your call. You can count on us!
+          </p>
+
+          <form action="/index.html" method="post">
+            <div>
+              <label for="name"></label>
+              <input type="text" name="name" id="name" placeholder="Complete name" required autocomplete="name">
+            </div>
+            <div>
+              <label for="phone"></label>
+              <input type="tel" name="phone" id="phone" placeholder="Phone" required autocomplete="tel">
+            </div>
+            <div>
+              <label for="email"></label>
+              <input type="email" name="email" id="email" placeholder="Email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="subject"></label>
+              <input type="text" name="subject" id="subject" placeholder="Subject" required maxlength="50">
+            </div>
+            <div>
+              <label for="message">Leave your message:</label> <br>
+              <textarea name="message" id="message" placeholder="Type here..." required rows="5" cols="25"></textarea>
+            </div>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <div>
+          <img
+            id="banner-footer"
+            src="/src/assets/images/CONTACT-footer.png"
+            alt="three Asian women, with their backs turned, walking down a street"
+          />
+        </div>
+
+        <div>
+          <img id="logo-footer" src="/src/assets/images/logo-footer.png" alt="campany's logo" />
+          <p>Business hours: 8 a.m. to 8 p.m. (Monday to Saturday)</p>
+          <p>Fictitious non-commercial project.</p>
+        </div>
+
+        <div>
+          <p>Visit our social media pages:</p>
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="/src/assets/images/logo-whatsapp.png" alt="Whatsapp's logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/src/assets/images/logo-instagram.png" alt="Instagram's logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/src/assets/images/logo-twitter.png" alt="Twitter's logo" /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
     <script src="/src/scripts/main.js"></script>
   </body>
 </html>
