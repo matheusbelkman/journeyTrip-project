@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 div.banner {
-    background-image: url("/src/assets/images/PACKAGES-banner-background.png");
+    background-image: url("../assets/images/PACKAGES-banner-background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
