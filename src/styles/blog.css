@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 div.banner {
-    background-image: url("../assets/images/BLOG-banner-background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('../assets/images/BLOG-banner-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
