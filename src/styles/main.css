@@ -56,7 +56,7 @@ body {
   color: var(--colorTextDark);
 }
 
-div#container {
+div.container {
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
