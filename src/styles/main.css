@@ -55,3 +55,24 @@ body {
   font-family: var(--fontText);
   color: var(--colorTextDark);
 }
+
+div#container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+}
